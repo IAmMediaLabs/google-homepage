@@ -31,7 +31,7 @@ li {
 
 }
 
-#google-ads {
+#apps{
 
 }
 
@@ -40,17 +40,49 @@ li {
 }
 
 #google-logo {
-display: block;
-margin-left: auto;
-margin-right: auto;
-height: 92px; 
-width: 272px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 92px; 
+    width: 272px;
 }
 
 #form {
- display: block;
- margin-left: auto;
- margin-right: auto;
- width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
 
 }
+
+#ad {
+
+
+}
+
+#business {
+
+
+}
+
+#hsearchw {
+
+
+}
+
+#privacy {
+
+
+}
+
+#terms {
+
+
+}
+
+#settings {
+
+
+}
+
+

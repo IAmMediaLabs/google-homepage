@@ -3,35 +3,61 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="styles/reset.css"
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
-
-<header>
-
-    <ul class="text-color">
-        <li id="about">About</li>
-        <li id="store">Store</li>
-        <li id="gmail">Gmail</li>
-        <li id="images">Images</li>
-        <li id="google-ads">Google Apps</li>
-        <li id="sign-in">Sign In</li>
-    </ul>
-
-</header>
 
 <body>
 
- <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    <div class="ncol">
+        <div class="nrow">
+            <ul>
+                <li><a id="about" href="#">About</a></li>
+                <li><a id="store" href="#">Store</a></li>
 
-   <form id="form">
-       <input type="search" id="query" name="q" placeholder="Search Google or type a URL">
-       <Button>search
-       </Button>
-   </form>
+            </ul>
+        </div>
+    </div>
+
+    <div class="ncol">
+        <div class="nrow">
+            <ul>    
+                <li><a id="gmail" href="#">Gmail</a></li>
+                <li><a id="images" href="#">Images</a></li>
+                <li><a id="apps" href="#">Apps</a></li>
+                <li><a id="sign-in" href="#">Sign In</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+    <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <form id="form">
+            <input type="search" id="query" name="q" placeholder="Search Google or type a URL">
+            <Button>search
+            </Button>
+        </form>
+    </div>
+
 </body>
 
 <footer>
+
+    <div clas="fcol">
+        <div class="frow">
+            <ul>
+                <li><a id="ad" href="#">Advertising</a></li>
+                <li><a id="business" href="#">Business</a></li>
+                <li><a id="hsearchw" href="#">How Search works</a></li>
+            </ul>  
+
+            <ul>
+                <li><a id="privacy" href="#">Privacy</a></li>
+                <li><a id="terms" href="#">Terms</a></li>
+                <li><a id="settings" href="#">Settings</a></li>
+            </ul>
+        </div>     
+    </div>
 
 </footer>
 

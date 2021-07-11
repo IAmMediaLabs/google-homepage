@@ -9,13 +9,24 @@ html {
 
 a {
     text-decoration: none;
-    color #5e5e5e;
+    color:#5e5e5e;
 
 }
 
 a:hover {
+    text-decoration: underline;
 
 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    padding: 20px 20px 0px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center; 
 }
 
 
@@ -23,11 +34,8 @@ a:hover {
 .nrow {
     display: flex;
     flex-direction: row;
-    font-size: 14px;
-    padding: 20px 20px 0px 20px;
-    width: 100%;
-    box-sizing: border-box;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 

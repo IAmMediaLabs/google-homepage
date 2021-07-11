@@ -8,10 +8,65 @@ html {
 }
 
 a {
+    text-decoration: none;
+    color #5e5e5e;
 
 }
 
 a:hover {
+
+
+}
+
+
+
+.nrow {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    padding: 20px 20px 0px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+.row {
+    
+    flex-direction: row;
+
+
+}
+
+.ncol{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.frow {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    padding: ;
+    width: ;
+    box-sizing: ;
+    align-items: center;
+
+}
+
+.fcol {
+    display: flex;
+    flex-direction: column;
+
 
 }
 
@@ -26,71 +81,30 @@ li {
     
 }
 
-#about {
 
-}
-
-#store {
-
-}
-
-#gmail {
-
-}
-
-#images {
-
-}
-
-#apps{
-
-}
-
-#sign-in {
-
-}
 
 #google-logo {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     height: 92px; 
     width: 272px;
 }
 
-#search {
-
-
+button {
+    background-color: #f4f4f4;
+    color: #5e5e5e;
+    border: none;
+    border-radius: 2.5px;
+    height: 35px;
+    width: 125px;
+    margin: 30px 5px 0 5px;
 }
 
-#ad {
-
-
+button:hover {
+    color: black;
+    border: solid 1px;
 }
 
-#business {
-
-
-}
-
-#hsearchw {
-
-
-}
-
-#privacy {
-
-
-}
-
-#terms {
-
-
-}
-
-#settings {
-
-
-}
 
 

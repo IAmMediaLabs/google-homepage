@@ -1,118 +1,102 @@
-
-
-
-
-html {
-    font-family: arial, sans-serif;
+html,body {
 
 }
 
 a {
     text-decoration: none;
-    color:#5e5e5e;
-
 }
 
-a:hover {
+a:hover{
     text-decoration: underline;
-
-
 }
 
-nav {
+#top {
     display: flex;
-    flex-direction: row;
-    font-size: 14px;
-    padding: 20px 20px 0px 20px;
-    width: 100%;
-    box-sizing: border-box;
-    align-items: center; 
+    justify-content: flex-end;
+      
 }
 
+#top a {
 
+}
 
-.nrow {
+#top-right {
+   display: flex;
+   padding-top: 15px;
+   margin-right: 20px;;
+   
+}
+
+.gmail {
+    flex: 0 1 100px;
+}
+
+.images {
+    flex: 0 1 100px;
+}
+
+.apps {
+    flex: 0 1 150px;
+}
+
+.sign-in {
+    flex: 0 1 150;
+}
+
+#main {
+    margin-top: 300px;
+}
+
+#logo-container {
+    text-align: center;
+}
+
+#searchbar-container {
+    text-align: center;
+}
+
+#searchbar {
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #bebcbc;
+    border-radius: 10px;
+    width: 450px;
+}
+
+#buttons {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-}
-
-.row {
+    justify-content: center;
+    margin-top: 10px;
     
-    flex-direction: row;
-
 
 }
 
-.ncol{
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-.col {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.button {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #f3f3f3;
+    border-radius: 5px;
 
 }
 
-.frow {
-    display: flex;
-    flex-direction: row;
-    font-size: 14px;
-    padding: ;
-    width: ;
-    box-sizing: ;
-    align-items: center;
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+    background: #f2f2f2
 
 }
 
-.fcol {
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li { 
-    display: inline;
+.footer-content {
     
+    color: #70757a;
+    margin-bottom: 15px;
+    background: ; 
+
 }
-
-
-
-#google-logo {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    height: 92px; 
-    width: 272px;
-}
-
-button {
-    background-color: #f4f4f4;
-    color: #5e5e5e;
-    border: none;
-    border-radius: 2.5px;
-    height: 35px;
-    width: 125px;
-    margin: 30px 5px 0 5px;
-}
-
-button:hover {
-    color: black;
-    border: solid 1px;
-}
-
-
 
